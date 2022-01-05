@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E7F2E9F27852D2E0027E164 /* ios-requirements.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4E7F2E9E27852D2E0027E164 /* ios-requirements.pdf */; };
 		4EFECD802771445800BC28E9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFECD7F2771445800BC28E9 /* Model.swift */; };
 		93305A732513D043004E869A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93305A722513D043004E869A /* AppDelegate.swift */; };
 		93305A752513D043004E869A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93305A742513D043004E869A /* SceneDelegate.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E7F2E9E27852D2E0027E164 /* ios-requirements.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "ios-requirements.pdf"; path = "../ios-requirements.pdf"; sourceTree = "<group>"; };
 		4EFECD7F2771445800BC28E9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		93305A6F2513D043004E869A /* MovieBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93305A722513D043004E869A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		93305A662513D043004E869A = {
 			isa = PBXGroup;
 			children = (
+				4E7F2E9E27852D2E0027E164 /* ios-requirements.pdf */,
 				93305A712513D043004E869A /* MovieBrowser */,
 				93305A882513D045004E869A /* MovieBrowserTests */,
 				93305A702513D043004E869A /* Products */,
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7F2E9F27852D2E0027E164 /* ios-requirements.pdf in Resources */,
 				93305A7F2513D045004E869A /* LaunchScreen.storyboard in Resources */,
 				93305A7C2513D045004E869A /* Assets.xcassets in Resources */,
 				93305A7A2513D043004E869A /* Main.storyboard in Resources */,
