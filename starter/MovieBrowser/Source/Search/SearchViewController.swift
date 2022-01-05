@@ -8,6 +8,24 @@
 
 import UIKit
 
+
+
+
+
+/*
+ *
+ * Movie Search iOS Sample Project
+ *
+ * By Peter Kamb, December 2021
+ * 
+ * https://github.com/pkamb
+ *
+ */
+
+
+
+
+
 class SearchViewController: UITableViewController {
     
     var posterCache = NSCache<NSString, UIImage>()
