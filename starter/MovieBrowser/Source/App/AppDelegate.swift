@@ -14,6 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barStyle = .black
         UINavigationBar.appearance().barTintColor = .systemBlue
         UINavigationBar.appearance().tintColor = .white
+        
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .systemBlue
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        UINavigationBar.appearance(whenContainedInInstancesOf: [UINavigationController.self]).standardAppearance = appearance
+        UINavigationBar.appearance(whenContainedInInstancesOf: [UINavigationController.self]).scrollEdgeAppearance = appearance
+        
         return true
     }
 }
